@@ -2,7 +2,7 @@
 
 # 3D Machines
 
-# Racing videogame website trailer created using three.js and React.js.
+# Racing videogame website trailer created with three.js and React.js.
 
 <img width="1440" alt="Screen Shot 2022-10-17 at 1 08 56 PM" src="https://user-images.githubusercontent.com/63080134/196232499-5fab270e-7b7f-448d-a54a-6d8015eeba12.png">
 <img width="1440" alt="Screen Shot 2022-10-17 at 1 09 41 PM" src="https://user-images.githubusercontent.com/63080134/196232503-ebf848a1-f2ab-4ac0-8d3d-0d3354b5f0df.png">
