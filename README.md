@@ -11,6 +11,7 @@
 ## How to run it locally:
 ### 1 - Git clone
 git init
+
 git clone https://github.com/Jakisundays/Cars3D.git
 
 ### 2 - Download dependecies:
