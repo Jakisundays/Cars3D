@@ -1,7 +1,8 @@
 .portada{
-    height: 95vh;
+    height: 93vh;
     color: white;
-    font-family: 'Krona One', sans-serif;
+    font-family: 'VT323', monospace;
+    text-shadow: 3px 3px rgb(100, 61, 136);
 }
 
 .portadaIntro{
@@ -11,18 +12,18 @@
 }
 
 .portadah1{
-    font-size: 70px;
+    font-size: 85px;
 }
 
 .portadah2{
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .portadabtns{
     display: flex;
     justify-content: space-around;
-    width: 70%;
-    margin-top: 80px;
+    width: 60%;
+    margin-top: 50px;
 }
 
 
@@ -78,13 +79,15 @@
 
 .consolas{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    background-color: black;
     position: relative;
-    top: 200px;
+    top: 210px;
+    color: white;
 }
 
 .consolas > span:hover{
-    color: yellow;
+    color: rgba(191, 123, 255, 0.781);
     transition: color 800ms ease;
 }
 

@@ -6,6 +6,7 @@ import Ferrari from './Ferrari'
 const FerrariSpin = () => {
   return (
     <>
+    <Loader />
         <Canvas shadows>
         <Suspense fallback={null}>
             <PerspectiveCamera
@@ -57,7 +58,7 @@ const FerrariSpin = () => {
 
         </Suspense>
     </Canvas>
-    <Loader />
+    
     </>
     
   )

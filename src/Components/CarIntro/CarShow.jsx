@@ -1,13 +1,12 @@
 import { CubeCamera, Environment, Loader, OrbitControls, PerspectiveCamera } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import React, { Suspense } from 'react'
-import Aros from './Aros'
-import * as THREE from 'three'
+
 
 import Car from './Car'
 import Floor from './Floor'
 import Sign from './Sign'
-// import { Sign } from './Sign'
+
 
 const CarShow = () => {
 
@@ -68,10 +67,9 @@ const CarShow = () => {
 
     </Suspense>
       </Canvas>
-      <Loader
-      dataInterpolation={(p) => `Loading ${p.toFixed(2)}%`} // Text
-      initialState={(active) => active}
-      />
+    <Loader />
+
+      
     </>
   )
 }

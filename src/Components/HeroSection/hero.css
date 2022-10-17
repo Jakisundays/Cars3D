@@ -8,6 +8,7 @@
     justify-content: left;
     align-items: center;
     font-family: 'Krona One', sans-serif;
+    text-shadow: 3px 3px rgb(100, 61, 136);
 }
 .heroWrapper{
     position: relative;
@@ -37,7 +38,8 @@
     align-self: center;
     height: 50px;
     width: 50%;
-    font-family: 'Krona One', sans-serif;
+    font-family: 'VT323', monospace;
+    text-shadow: 1px 1px rgb(100, 61, 136);
     padding: 0 30px;
     border: 2px solid rgb(22, 0, 186);
     background: #e8e8e8;
