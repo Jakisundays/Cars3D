@@ -1,0 +1,103 @@
+.heroContainer{
+    color: white;
+    background-color: #000;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    font-family: 'Krona One', sans-serif;
+}
+.heroWrapper{
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.btnWrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.heroh1{
+    text-align: center;
+    font-size: 100px;
+}
+.heroh2{
+    text-align: center;
+}
+/* .heroBtn{
+
+} */
+
+.heroBtn {
+    position: relative;
+    align-self: center;
+    height: 50px;
+    width: 50%;
+    font-family: 'Krona One', sans-serif;
+    padding: 0 30px;
+    border: 2px solid rgb(22, 0, 186);
+    background: #e8e8e8;
+    user-select: none;
+    white-space: nowrap;
+    transition: all .05s linear;
+    font-family: inherit;
+   }
+   
+   .heroBtn:before, .heroBtn:after {
+    content: "";
+    position: absolute;
+    background: #e8e8e8;
+    transition: all .2s linear;
+   }
+   
+   .heroBtn:before {
+    width: calc(100% + 6px);
+    height: calc(100% - 16px);
+    top: 8px;
+    left: -3px;
+   }
+   
+   .heroBtn:after {
+    width: calc(100% - 16px);
+    height: calc(100% + 6px);
+    top: -3px;
+    left: 8px;
+   }
+   
+   .heroBtn:hover {
+    cursor: crosshair;
+   }
+   
+   .heroBtn:active {
+    transform: scale(0.95);
+   }
+   
+   .heroBtn:hover:before {
+    height: calc(100% - 32px);
+    top: 16px;
+   }
+   
+   .heroBtn:hover:after {
+    width: calc(100% - 32px);
+    left: 16px;
+   }
+   
+   .span {
+    font-size: 15px;
+    z-index: 3;
+    position: relative;
+    font-weight: 600;
+   }
+
+   .carShow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    padding-top: 5vh;
+    width: 100%;
+   }
