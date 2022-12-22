@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Cars3D/static/css/main.b27336a9.css",
-    "main.js": "/Cars3D/static/js/main.a68b3c76.js",
+    "main.js": "/Cars3D/static/js/main.00f3864e.js",
     "static/media/bg.gif": "/Cars3D/static/media/bg.e30b6c1c2123769e96b9.gif",
     "index.html": "/Cars3D/index.html",
     "main.b27336a9.css.map": "/Cars3D/static/css/main.b27336a9.css.map",
-    "main.a68b3c76.js.map": "/Cars3D/static/js/main.a68b3c76.js.map"
+    "main.00f3864e.js.map": "/Cars3D/static/js/main.00f3864e.js.map"
   },
   "entrypoints": [
     "static/css/main.b27336a9.css",
-    "static/js/main.a68b3c76.js"
+    "static/js/main.00f3864e.js"
   ]
 }
