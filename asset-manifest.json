@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cars3d/static/css/main.b27336a9.css",
+    "main.js": "/cars3d/static/js/main.d85a13a2.js",
+    "static/media/bg.gif": "/cars3d/static/media/bg.e30b6c1c2123769e96b9.gif",
+    "index.html": "/cars3d/index.html",
+    "main.b27336a9.css.map": "/cars3d/static/css/main.b27336a9.css.map",
+    "main.d85a13a2.js.map": "/cars3d/static/js/main.d85a13a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b27336a9.css",
+    "static/js/main.d85a13a2.js"
+  ]
+}
